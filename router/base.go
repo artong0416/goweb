@@ -30,4 +30,8 @@ func Init(r *gin.Engine) {
 		})
 	})
 
+	r.StaticFile("/resource/css/framework.css", "./public/resource/css/framework.css")
+	r.StaticFile("/resource/css/main.css", "./public/resource/css/main.css")
+	r.StaticFile("/resource/sweetalert/sweetalert.css", "./public/resource/sweetalert/sweetalert.css")
+
 }
