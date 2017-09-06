@@ -15,6 +15,7 @@ func Init(r *gin.Engine) {
 	})
 
 	r.POST("/test", controller.Test)
+	r.GET("/testindex", controller.Index)
 
 /*	r.LoadHTMLGlob("templates/*")
 	r.GET("/test", func(c *gin.Context) {
@@ -24,11 +25,7 @@ func Init(r *gin.Engine) {
 	})*/
 
 	r.LoadHTMLGlob("templates/**/*")
-	r.GET("/test/list", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "test/list.html", gin.H{
-			"title": "Main website",
-		})
-	})
+	r.GET("/test/list", controller.Index)
 
 	r.StaticFile("/resource/css/framework.css", "./public/resource/css/framework.css")
 	r.StaticFile("/resource/css/main.css", "./public/resource/css/main.css")

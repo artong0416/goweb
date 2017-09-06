@@ -1,5 +1,7 @@
 package res
 
+import "github.com/artong0416/goweb/log"
+
 /*
   #Created by Luheng on 2017/2/14.
   #Arguments: 需要包装的数据
@@ -29,5 +31,18 @@ func ReturnError(msg string, code int) map[string]interface{} {
 		m["status"] = code
 	}
 
+	return m
+}
+
+/*
+  #Created by Luheng on 2017/8/12.
+  #Arguments:
+  #Return:
+  #Description:通用返回
+*/
+func ReturnCommon(msg string, data interface{}, status int, desc string) map[string]interface{} {
+	m := make(map[string]interface{}, 4)
+	m = map[string]interface{}{"msg": msg, "status": status, "data": data}
+	log.Log.Info(desc + "返回值:%v", m)
 	return m
 }
