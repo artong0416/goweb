@@ -5,6 +5,9 @@ import (
 	"net/http"
 	"github.com/artong0416/goweb/log"
 	"github.com/artong0416/goweb/res"
+	"fmt"
+	"strings"
+	"encoding/json"
 )
 
 
@@ -24,13 +27,23 @@ type TestPara struct {
   #Description: 测试接口Handler
 */
 func Test(g *gin.Context) {
+	gCp := g.Copy()
+	fmt.Println(gCp.PostForm("sign"))
+	fmt.Println(gCp.Request.ParseForm())
+	fmt.Println(gCp.Request.Form)
+	str, _ :=json.Marshal(gCp.Request.Form)
+	fmt.Println(string(str))
+	for k, v := range gCp.Request.Form {
+		fmt.Println("key:", k)
+		fmt.Println("val:", strings.Join(v, ";"))
+	}
 	var postpara TestPara
 	if err := g.Bind(&postpara); err != nil {
 		log.Log.Error("参数错误,参数[%v] 请求方[%s] 原因[%s]", g.Request.PostForm, g.ClientIP(), err.Error())
 		g.JSON(http.StatusBadRequest, res.ReturnError("para error! "+err.Error(), -1))
 		return
 	}
-	result := "this is a test"
+	result := "this is a test" + postpara.Body + postpara.Sign
 	g.JSON(http.StatusOK, res.Return(result))
 
 }
