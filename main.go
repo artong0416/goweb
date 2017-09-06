@@ -20,6 +20,8 @@ func main() {
 	// init models
 	conf.HookReload = append(conf.HookReload, model.Init)
 
+	//数据库
+	model.Init()
 	//日志
 	//Gin日志定制
 	ginLogWriter := &log.GinLoggerWriter{}
