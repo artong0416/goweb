@@ -15,4 +15,19 @@ func Init(r *gin.Engine) {
 	})
 
 	r.POST("/test", controller.Test)
+
+/*	r.LoadHTMLGlob("templates/*")
+	r.GET("/test", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "list.html", gin.H{
+			"title": "Main website",
+		})
+	})*/
+
+	r.LoadHTMLGlob("templates/**/*")
+	r.GET("/test/list", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "test/list.html", gin.H{
+			"title": "Main website",
+		})
+	})
+
 }
