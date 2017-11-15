@@ -29,7 +29,7 @@ func Daemon() {
 		err := cmd.Start()
 
 		if err != nil {
-			Logger.Panic("Start unsuccessfully")
+			//Logger.Panic("Start unsuccessfully")
 		}
 		os.Exit(0)
 	}
@@ -71,7 +71,7 @@ func SetSignal(serve *http.Server) {
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second*1)
 	defer cancel()
 	serve.Shutdown(ctx)
-	Logger.Info("Server already shutdown gracefully!")
+	//Logger.Info("Server already shutdown gracefully!")
 	//shutdown gracefully
 	/*select {
 	case <-ctx.Done():

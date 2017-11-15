@@ -1,0 +1,151 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "iZRJ7l3vbg1KTE7tQvPZrGigEMQ=",
+			"path": "github.com/DeanThompson/ginpprof",
+			"revision": "8c0e31bfeaa87bd40412ee8a8ba383f5f700ff72",
+			"revisionTime": "2017-02-18T16:25:46Z"
+		},
+		{
+			"checksumSHA1": "KhZ5s0Dt7RoFLhd4uVVPsHjaNfo=",
+			"path": "github.com/Unknwon/goconfig",
+			"revision": "87a46d97951ee1ea20ed3b24c25646a79e87ba5d",
+			"revisionTime": "2016-11-21T22:43:40Z"
+		},
+		{
+			"checksumSHA1": "imR2wF388/0fBU6RRWx8RvTi8Q8=",
+			"path": "github.com/facebookgo/clock",
+			"revision": "600d898af40aa09a7a93ecb9265d87b0504b6f03",
+			"revisionTime": "2015-04-10T01:09:13Z"
+		},
+		{
+			"checksumSHA1": "2Jy8ibzL8kHuenZI0LAvCLI1e98=",
+			"path": "github.com/facebookgo/grace/gracehttp",
+			"revision": "4afe952a37a495ae4ac0c1d4ce5f66e91058d149",
+			"revisionTime": "2017-02-18T22:52:39Z"
+		},
+		{
+			"checksumSHA1": "nj3ykV8Em7WOfvHNIo/XNTT9LOM=",
+			"path": "github.com/facebookgo/grace/gracenet",
+			"revision": "4afe952a37a495ae4ac0c1d4ce5f66e91058d149",
+			"revisionTime": "2017-02-18T22:52:39Z"
+		},
+		{
+			"checksumSHA1": "8SgB/r3Cf+OvXmg8bIPnlEq03Bs=",
+			"path": "github.com/facebookgo/httpdown",
+			"revision": "a3b1354551a26449fbe05f5d855937f6e7acbd71",
+			"revisionTime": "2016-03-23T22:10:27Z"
+		},
+		{
+			"checksumSHA1": "SzXvrWxavFo8HD/2hnbdu17C3VE=",
+			"path": "github.com/facebookgo/stats",
+			"revision": "1b76add642e42c6ffba7211ad7b3939ce654526e",
+			"revisionTime": "2015-10-06T22:16:25Z"
+		},
+		{
+			"checksumSHA1": "QeKwBtN2df+j+4stw3bQJ6yO4EY=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
+			"revisionTime": "2017-01-09T09:34:21Z"
+		},
+		{
+			"checksumSHA1": "9Eg8+vMKNU+2Iyl6XuVVvkYNF4U=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "6653d5d588740eb73d2245ef04d5a407d3c3f034",
+			"revisionTime": "2017-10-30T02:38:38Z"
+		},
+		{
+			"checksumSHA1": "M3iXOKdjG7gGxMpQPMI49uqsaQU=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "6653d5d588740eb73d2245ef04d5a407d3c3f034",
+			"revisionTime": "2017-10-30T02:38:38Z"
+		},
+		{
+			"checksumSHA1": "YOwO5bkv3ei+GTVZqeEVB30kXDM=",
+			"path": "github.com/gin-gonic/gin/json",
+			"revision": "6653d5d588740eb73d2245ef04d5a407d3c3f034",
+			"revisionTime": "2017-10-30T02:38:38Z"
+		},
+		{
+			"checksumSHA1": "O+2Q4Uc9Vidvc/ctORliL315ZVI=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "6653d5d588740eb73d2245ef04d5a407d3c3f034",
+			"revisionTime": "2017-10-30T02:38:38Z"
+		},
+		{
+			"checksumSHA1": "os4jdoOUjr86qvOwri8Ut1rXDrg=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "fade21009797158e7b79e04c340118a9220c6f9e",
+			"revisionTime": "2017-10-17T18:16:16Z"
+		},
+		{
+			"checksumSHA1": "YkpuNhq75eI7X98jjtYh5gfsnts=",
+			"path": "github.com/go-xorm/builder",
+			"revision": "a4a881a4e552fcb5473f39e8b9f7d9f3457a7fb0",
+			"revisionTime": "2017-10-30T02:14:29Z"
+		},
+		{
+			"checksumSHA1": "HMavuxvDhKOwmbbFnYt9hfT6jE0=",
+			"path": "github.com/go-xorm/core",
+			"revision": "da1adaf7a28ca792961721a34e6e04945200c890",
+			"revisionTime": "2017-09-09T08:56:53Z"
+		},
+		{
+			"checksumSHA1": "PVxQBV6jM2OmRv2YC8NClDIVJaI=",
+			"path": "github.com/go-xorm/xorm",
+			"revision": "a620571388c685fde76f4dda04dfd840196262e4",
+			"revisionTime": "2017-11-01T00:41:20Z"
+		},
+		{
+			"checksumSHA1": "YFiU4s1qlYsiI1LY+VZaCvrPWdg=",
+			"path": "github.com/golang/go/src/pkg/net/http",
+			"revision": "6174b5e21e73714c63061e66efdbe180e1c5491d",
+			"revisionTime": "2012-03-28T12:41:59Z"
+		},
+		{
+			"checksumSHA1": "yqF125xVSkmfLpIVGrLlfE05IUk=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "1643683e1b54a9e88ad26d98f81400c8c9d9f4f9",
+			"revisionTime": "2017-10-21T04:39:52Z"
+		},
+		{
+			"checksumSHA1": "ZxzYc1JwJ3U6kZbw/KGuPko5lSY=",
+			"path": "github.com/howeyc/fsnotify",
+			"revision": "f0c08ee9c60704c1879025f2ae0ff3e000082c13",
+			"revisionTime": "2015-10-03T19:46:02Z"
+		},
+		{
+			"checksumSHA1": "y/A5iuvwjytQE2CqVuphQRXR2nI=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "a5cdd64afdee435007ee3e9f6ed4684af949d568",
+			"revisionTime": "2017-09-25T05:49:04Z"
+		},
+		{
+			"checksumSHA1": "rJab1YdNhQooDiBWNnt7TLWPyBU=",
+			"path": "github.com/pkg/errors",
+			"revision": "f15c970de5b76fac0b59abb32d62c17cc7bed265",
+			"revisionTime": "2017-10-18T19:55:50Z"
+		},
+		{
+			"checksumSHA1": "uX6btiQ1i20zH1Gvwj8wszH58Mg=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "50189f05eaf5a0c17e5084eb8f7fb91e23699840",
+			"revisionTime": "2017-11-01T02:18:41Z"
+		},
+		{
+			"checksumSHA1": "QSy5NJwFICKehDsWtfHbcVjIZ+o=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f57d2222ad794d0dffb07e664ea05e2ee07d60c",
+			"revisionTime": "2016-07-18T13:41:25Z"
+		},
+		{
+			"checksumSHA1": "RDJpJQwkF012L6m/2BJizyOksNw=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "eb3733d160e74a9c7e442f435eb3bea458e1d19f",
+			"revisionTime": "2017-08-12T16:00:11Z"
+		}
+	],
+	"rootPath": "github.com/artong0416/goweb"
+}

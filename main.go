@@ -13,6 +13,7 @@ import (
 	"github.com/artong0416/goweb/log"
 	"github.com/artong0416/goweb/router"
 	"github.com/artong0416/goweb/daemon"
+	"github.com/DeanThompson/ginpprof"
 )
 
 func main() {
@@ -45,6 +46,9 @@ func main() {
 		IdleTimeout:  time.Second * 10,
 	}
 	router.Init(r)
+
+	ginpprof.Wrapper(r)
+
 
 	daemon.SetSignal(serve)
 }
